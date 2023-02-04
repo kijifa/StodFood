@@ -1,6 +1,6 @@
-from scrape.scrape import wget_download_page
-from scrape.scrape import convert_pdf
-from scrape.scrape import save_txt
+from utils.scrape import wget_download_page
+from utils.scrape import convert_pdf
+from utils.scrape import save_txt
 
 def perfect_canteen():
     url = "https://menu.perfectcanteen.cz/pdf/28/cz/price/a3"
